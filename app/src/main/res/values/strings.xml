@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">VoroshilovAK_PR-31_03</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="fill_email">Fill in your email and password to continue</string>
+    <string name="email">Email Address</string>
+    <string name="hint_email">***********@mail.com</string>
+    <string name="password">Password</string>
+    <string name="hint_password">**********</string>
+    <string name="rmmbr_password">Remember password</string>
+    <string name="frgt_password">Forgot Password?</string>
+    <string name="login">Log in</string>
+    <string name="have_acc">Already have an account? </string>
+    <string name="sign_up">Sign up</string>
+    <string name="log_using">or log in using</string>
+    <string name="chats">Chats</string>
+    <string name="search">Search for a driver</string>
+    <string name="john">John Joshua</string>
+    <string name="thx">Thanks for your service</string>
+    <string name="one">1</string>
+    <string name="james">Chinonso James</string>
+    <string name="waiting">Alright, I will be waiting</string>
+    <string name="ron">Raph Ron</string>
+    <string name="five">5</string>
+    <string name="joy">Joy Ezekiel</string>
+    <string name="back">Back</string>
+    <string name="info">Info:</string>
+    <string name="age">Age:</string>
+    <string name="name">Name:</string>
+</resources>
