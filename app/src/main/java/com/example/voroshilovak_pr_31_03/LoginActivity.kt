@@ -27,6 +27,7 @@ class LoginActivity : AppCompatActivity() {
         password.setText(pref.getString("input_password", ""))
     }
 
+    //функция регистрации
     fun Login(view: View) {
         if (email.text.toString().isNotEmpty() && password.text.toString().isNotEmpty()) {
 
@@ -43,8 +44,8 @@ class LoginActivity : AppCompatActivity() {
             }
             else{
                 val alert = AlertDialog.Builder(this)
-                    .setTitle("Ошибка")
-                    .setMessage("Неверная почта или пароль")
+                    .setTitle(R.string.error)
+                    .setMessage(R.string.incorrect_reg)
                     .setPositiveButton("Ok", null)
                     .create()
                     .show()
@@ -52,8 +53,8 @@ class LoginActivity : AppCompatActivity() {
         }
         else{
             val alert = AlertDialog.Builder(this)
-                .setTitle("Ошибка")
-                .setMessage("У вас есть незаполненные поля")
+                .setTitle(R.string.error)
+                .setMessage(R.string.nothing_reg)
                 .setPositiveButton("Ok", null)
                 .create()
                 .show()

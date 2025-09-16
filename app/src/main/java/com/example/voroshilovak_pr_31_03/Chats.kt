@@ -21,6 +21,7 @@ class Chats : AppCompatActivity() {
         }
     }
 
+    //функция перехода назад
     fun Back(view: View) {
         val intent = Intent(this@Chats, LoginActivity::class.java)
         startActivity(intent)
@@ -33,6 +34,7 @@ class Chats : AppCompatActivity() {
     lateinit var man4: ConstraintLayout
     lateinit var man5: ConstraintLayout
 
+    //функция перехода на контакт
     fun MoreInfo(view: View) {
 
         val selectedId = view.id.toString()

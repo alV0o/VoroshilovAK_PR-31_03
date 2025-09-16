@@ -26,4 +26,7 @@
     <string name="info">Info:</string>
     <string name="age">Age:</string>
     <string name="name">Name:</string>
+    <string name="incorrect_reg">Неверная почта или пароль</string>
+    <string name="error">Ошибка</string>
+    <string name="nothing_reg">У вас есть незаполненные поля</string>
 </resources>

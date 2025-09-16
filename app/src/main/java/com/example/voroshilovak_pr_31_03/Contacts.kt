@@ -7,7 +7,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
@@ -73,6 +72,7 @@ class Contacts : AppCompatActivity() {
 
 
     }
+    //функция перехода назад
     fun Back(view: View) {
         val intent = Intent(this@Contacts, Chats::class.java)
         startActivity(intent)
